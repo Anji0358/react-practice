@@ -1,11 +1,16 @@
-import Hello from "./components/Hello";
+import Child from "./components/Child";
 
-const App=()=>{
-  return(
-    <div>
-      <h1>React練習</h1>
-      <Hello />
-    </div>
+const App = () => {
+  const hello=(arg)=>`Hello ${arg}`;
+  return (
+    <>
+      {/* <Child color="red"/> */}
+      <Child 
+      num={123}
+      fn={hello}
+      obj={{name:"Tom",age:18}}
+      />
+    </>
   );
 }
 
