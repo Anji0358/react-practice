@@ -16,12 +16,11 @@ const App = () => {
     </>
   );
 };
-
 export default App;
 // const clickHandler = () => {
 //   alert("ボタンがクリックされました。");
 // }
-// const App=()=>{
+// const App=()=>{f
 //   return (
 //     <>
 //     <div>
