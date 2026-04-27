@@ -1,17 +1,31 @@
 import Child from "./components/Child";
 
+const clickHandler = () => {
+  alert("ボタンがクリックされました。");
+}
+
 const App = () => {
-  const hello=(arg)=>`Hello ${arg}`;
   return (
     <>
-      {/* <Child color="red"/> */}
-      <Child 
-      num={123}
-      fn={hello}
-      obj={{name:"Tom",age:18}}
-      />
+      <button onClick={clickHandler}>クリック</button>
+      <button>クリック</button>
     </>
-  );
+  )
 }
 
 export default App;
+// const App = () => {
+//   const hello = (arg: string): string => `Hello ${arg}`;
+
+//   return (
+//     <>
+//       <Child
+//         color="red"        // string
+//         num={123}          // number
+//         fn={hello}         // (arg: string) => string
+//         obj={{ name: "Tom", age: 18 }} // { name: string; age: number }
+//       />
+//     </>
+
+//   );
+// }
