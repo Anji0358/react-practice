@@ -5,8 +5,12 @@ import { createRoot } from 'react-dom/client'
 import Array from "./components/Array"
 import Example from './Example'
 import Form from './components/Form'
+import Form2 from './components/Form02'
+import Todo from './components/Todo'
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Form />
+    <h3>Reminder</h3>
+    <Todo />
   </StrictMode>,
 )

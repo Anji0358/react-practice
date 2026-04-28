@@ -1,6 +1,5 @@
 import { useState } from "react";
 
-// POINT input要素、textarea要素の使い方
 const Form = () => {
 
   const [fruit, setFruit] = useState("Apple");
