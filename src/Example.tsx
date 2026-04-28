@@ -1,4 +1,4 @@
-import Profile from "./components/Array02";
+import Profile from "./components06/Array02";
 import { useState } from "react";
 
 const persons = [
