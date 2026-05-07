@@ -9,9 +9,10 @@ import Form2 from './components06/Form02'
 import Todo from './components06/Todo'
 import Style from './components07/Style'
 import Style2 from './components07/Style02'
+import Ref from './components08/Ref'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <Example />
+    <Ref />
   </StrictMode>,
 )
